@@ -153,3 +153,115 @@ footer a:hover {
     height: 200px;
     transform: rotate(10deg);
 }
+
+/* Mobile devices (up to 600px wide) */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item img.logo {
+        max-width: 80px;
+    }
+
+    #me {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Tablets (601px to 900px wide) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-item img.logo {
+        max-width: 90px;
+    }
+
+    #me {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+/* Desktop devices (above 900px wide) */
+@media only screen and (min-width: 901px) {
+    body {
+        padding: 40px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-item img.logo {
+        max-width: 100px;
+    }
+
+    #me {
+        width: 150px;
+        height: 150px;
+    }
+}
